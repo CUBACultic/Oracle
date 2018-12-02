@@ -15,6 +15,7 @@ def oracle():
     input("Enter your question...> ")
     print(oraclelist[r])
     time.sleep(1)
+    dieOracle()
 
 def dieOracle():
     yn =input("Try again?...> ")
@@ -36,5 +37,6 @@ def dieOracle():
 print("Welcome...")
 time.sleep(1)
 oracle()
-dieOracle()
+
 time.sleep(1)
+
