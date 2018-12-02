@@ -9,7 +9,7 @@ oraclelist = ["Yes","No",
 
 
 r= random.randint(0,6)
-i=0
+
 
 def oracle():
     input("Enter your question...> ")
